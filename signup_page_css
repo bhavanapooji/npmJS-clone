@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+    margin-bottom:200px;
+    background-color: #f7f7f7;
+}
+header{
+    height:9.5px;
+    background-image: linear-gradient(to right,#fb8515,#fd650a,#ff4c02,#e83b0f,#ce2a1f,#c32236,#cd257b,#d627b5);
+}
+img{
+    height:45px;
+    width:150px;
+    margin-top:70px;
+  margin-left:680px;
+ 
+}
+
+#form_signup{
+   width:635px;
+   margin-left:440px;
+   padding-top:45px;
+  
+}
+#main_form_npm{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 35px;
+    padding-bottom: 22px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#sign_up_npm_heading{
+    
+    font-family: 'Source Sans 3', sans-serif;
+    color:rgb(66, 66, 66);
+    font-weight:bolder;
+    font-size:29px;
+    letter-spacing: 1px;
+    padding-bottom:15px;
+    
+}
+hr.hr{
+    border-top: 0.5px solid rgb(243, 242, 242)
+}
+#npm_signup_username,#npm_signup_email,#npm_sinup_password{
+    display:block;
+    padding-top:20px;
+    padding-bottom:7px;
+    font-family: 'Source Sans 3', sans-serif;
+    color:rgb(0, 0, 0);
+    font-weight:600;
+    font-size:19px;
+    letter-spacing: 0.6px;
+}
+#npm_signup_inputbox,#npm_signup_email_box{
+    width:550px;
+    height:45px;
+    border-radius: 5px;
+    border:1px solid #8f8f8f;
+    
+}
+#words1, #words2{
+    padding-top:12px;
+    font-size:17.2px;
+    font-family: 'Lucida Grande',sans-serif;
+    line-height: 1.5;
+    color:rgba(30, 30, 30, 0.8);
+    font-weight:400;
+    letter-spacing: 0.2px;
+    word-spacing: -1px;
+}
+#npm_pass{
+    display:flex
+}
+#npm_pass_input {
+   flex:1 1 auto;
+   height:45px;
+   border-radius: 5px 0 0 5px;
+   border:1px solid #8f8f8f;
+   border-right-color: #fafafa;
+
+
+}
+#npm_pass_button{
+    font-family: 'Source Sans 3', sans-serif;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size:20px;
+    background-color: white;
+    border:1px solid #8f8f8f;
+    color:rgba(30, 30, 30, 0.8);
+    border-radius:0 5px 5px 0;
+}
+#words3{
+    display:inline-block;
+    padding-top:20px;
+    font-size:15.8px;
+    font-family:  'Source Sans 3', sans-serif;
+    letter-spacing:0.4px;
+}
+#create_an_account{
+   height:45px;
+   width:550px;
+    border-radius: 4px;
+    border:1px solid rgb(232, 232, 232);;
+    background-color: rgba(72, 72, 72, 0.025);
+    
+
+}
+#create_an_account_td{
+    padding-top:30px;
+}
+::placeholder{
+    text-align:center;
+    font-size:18px;
+    color:rgb(232, 232, 232);
+    
+}
+.last_words{
+    display:block;
+    text-align:center;
+    font-family: 'Lucida Grande',sans-serif;
+    font-size: 18px;
+}
+#already_have_an_account{
+    padding-top:40px;
+}
+#link_signup{
+    padding-top:20px;
+    font-weight:bolder;
+}
+a:link,a:active,a:visited{
+    color:rgb(68, 68, 68)
+}
+input:focus {
+    outline: none !important;
+    border:4px solid #0443a2;
+    box-shadow: 0 0 5px #0064fb;
+  }
+  
