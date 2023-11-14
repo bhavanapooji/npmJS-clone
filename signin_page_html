@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>npm | Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="shortcut icon" href="https://static-production.npmjs.com/da3ab40fb0861d15c83854c29f5f2962.png">
+
+</head>
+<body>
+    <header></header>
+    <div id="main_body">
+        <div id="main_caption">
+            <img src="./npm-logo-black.png" id="npm_logo" alt="">
+            </div>
+            <div id="form_signin">
+                <form id="main_form_npm_signin">
+                    <table>
+                        <tr>
+                           <td class="bear_images">
+                               <img class="bear_closed_eyes" src="./bear closed eyes.png" alt="">
+                               <img class="bear_open_eyes" src="./bear open eyes.png" alt="">
+                           </td>
+                        </tr>
+        
+                        <tr>
+                                <td ><h1 id="sign_in_npm_heading">Sign In</h1></td>
+                        </tr>
+                    <tr><td><hr class="hr_signin"></td></tr>
+                    <tr >
+                        <td><label for="" id="npm_signin_username">Username *</label></td>
+                    </tr>
+                    <tr >
+                        <td><input id="npm_signin_inputbox" type="text" name="username*" required></td>
+                    </tr>
+                    <tr>
+                        <td > <ul id="npm_signin_password">
+                            <li id="pass_pass">Password</li>
+                            <li style="float: right;" id="forgot_Password"><u>Forgot password?</u></li>
+                        </ul>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td id="npm_pass_sign_in"><input type="password" name="passwordnpm" id="npm_pass_input_sign_in">
+                        <input type="button" value="Show" id="npm_pass_button_sign_in"></td>
+                    </tr>
+                    <tr>
+                        <td><button id="button_sign_in_signin" type="submit">Sign In</button></td>
+                    </tr>
+                    </table>
+                
+                </form> 
+                <a href="./signup.html" id="create_account_signin"><u>Create Account</u></a>
+               
+            </div>
+    </div>
+</body>
+</html>
