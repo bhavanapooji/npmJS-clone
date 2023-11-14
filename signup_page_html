@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>npm | Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="shortcut icon" href="https://static-production.npmjs.com/da3ab40fb0861d15c83854c29f5f2962.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap');
+      </style>
+</head>
+<body>
+    <header></header>
+    <div id="main_caption">
+    <img src="./npm-logo-black.png" alt="">
+    </div>
+    <div id="form_signup">
+        <form id="main_form_npm">
+            <h1 id="sign_up_npm_heading">Sign Up</h1>
+            <hr class="hr">
+            <table>
+                <tr >
+                    <td><label for="" id="npm_signup_username">Username *</label></td>
+                </tr>
+                <tr >
+                    <td><input id="npm_signup_inputbox" type="text" name="username*" required></td>
+                </tr>
+                <tr>
+                    <td><label for="" id="npm_signup_email">Email address</label></td>
+                </tr>
+                <tr>
+                    <td><input id="npm_signup_email_box" type="email" name="emailaddress" required></td>
+                </tr>
+                <tr>
+                    <td id="words1">Your email address will be added to the metadata of packages that you publish, so it may be seen publicly.</td>
+                </tr>
+                <tr>
+                    <td><label for="" id="npm_sinup_password">Password</label></td>
+                </tr>
+                <tr >
+                    <td id="npm_pass"><input type="password" name="passwordnpm" id="npm_pass_input">
+                    <input type="button" value="Show" id="npm_pass_button"></td>
+                </tr>
+                <tr>
+                    <td id="words2">Minimum of 10 characters and must meet our <u>password guidelines</u></td>
+
+                </tr>
+                <tr>
+                    <td>
+                    <input type="checkbox" name="license" > <span id="words3">I agree to the <u>End User license Agreement</u> and the <u>Privacy Policy.</u> *</span>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td id="create_an_account_td"><input type="text" placeholder="Create an Account" name="createan account" id="create_an_account"></td>
+                </tr>
+            </table>
+        </form>
+        <p class="last_words" id="already_have_an_account">Already have an account?</p>
+        <a class="last_words" id="link_signup" href="./signin.html">Sign In</a>
+
+    </div>
+   
+</body>
+</html>
